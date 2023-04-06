@@ -15,7 +15,7 @@
   "author": "jasper liu",
   "license": "MIT",
   "dependencies": {
-    "@geek-ui/utils": "workspace:^1.0.0"
+    "@geek-ui/utils": "workspace:*"
   },
   "typings": "lib/index.d.ts",
   "files": [
