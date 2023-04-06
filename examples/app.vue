@@ -5,5 +5,5 @@
 </template>
 
 <script lang="ts" setup>
-import { Button } from "geek-ui";
+import { Button } from "@geek/ui";
 </script>

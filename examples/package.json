@@ -11,6 +11,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "geek-ui": "workspace:^1.0.0"
+    "@geek/ui": "workspace:*"
   }
 }

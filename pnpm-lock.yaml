@@ -20,9 +20,11 @@ importers:
 
   examples:
     specifiers:
+      '@geek/ui': workspace:^1.0.0
       geek-ui: workspace:^1.0.0
     dependencies:
-      geek-ui: link:../packages/components
+      '@geek/ui': link:../packages/components
+      geek-ui: link:..
 
   packages/components:
     specifiers:
