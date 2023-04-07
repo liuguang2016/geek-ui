@@ -1,9 +1,9 @@
 {
   "name": "@geek/ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "geek component ui",
   "main": "lib/index.js",
-  "module":"es/index.js",
+  "module": "es/index.js",
   "scripts": {
     "build": "vite build",
     "tur": "turbo run build"
