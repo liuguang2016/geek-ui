@@ -20,19 +20,14 @@ importers:
       vite-plugin-dts: 1.4.1_vite@3.0.7
       vue: 3.2.36
 
-  examples:
-    specifiers:
-      '@geek/ui': workspace:^1.0.0
-      geek-ui: workspace:^1.0.0
-    dependencies:
-      '@geek/ui': link:../packages/components
-      geek-ui: link:..
-
   packages/components:
     specifiers:
-      '@geek-ui/utils': workspace:^1.0.0
+      '@geek-ui/utils': workspace:*
     dependencies:
       '@geek-ui/utils': link:../utils
+
+  packages/utils:
+    specifiers: {}
 
 packages:
 
