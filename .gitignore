@@ -1,3 +1,8 @@
 **/node_modules
 **/lib
 **/es
+
+.turbo
+build/**
+dist/**
+.next/**
