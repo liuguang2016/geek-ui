@@ -1,7 +1,7 @@
 {
   "name": "@geek/ui",
   "version": "1.0.0",
-  "description": "",
+  "description": "geek component ui",
   "main": "lib/index.js",
   "module":"es/index.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "geek",
     "component"
   ],
-  "author": "jasper liu",
+  "author": "guang liu",
   "license": "MIT",
   "dependencies": {
     "@geek-ui/utils": "workspace:*"
